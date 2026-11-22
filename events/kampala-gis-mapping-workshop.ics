@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MDV//Events//EN
+BEGIN:VEVENT
+UID:kampala-gis-mapping-workshop@mdv.example
+DTSTAMP:20260905T060000Z
+DTSTART:20260905T060000Z
+DTEND:20260905T130000Z
+SUMMARY:Kampala GIS & Mapping Workshop
+LOCATION:Kololo\, Kampala
+DESCRIPTION:One day\, QGIS\, open map data. https://mdv.example/events/kampala-gis-mapping-workshop.html
+URL:https://mdv.example/events/kampala-gis-mapping-workshop.html
+END:VEVENT
+END:VCALENDAR

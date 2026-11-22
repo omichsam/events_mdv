@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MDV//Events//EN
+BEGIN:VEVENT
+UID:ea-data-summit-2026@mdv.example
+DTSTAMP:20261208T060000Z
+DTSTART:20261208T060000Z
+DTEND:20261209T143000Z
+SUMMARY:East Africa Data Summit 2026
+LOCATION:Riverside Drive\, Westlands\, Nairobi
+DESCRIPTION:3 tracks\, 30 talks\, two evening receptions. https://mdv.example/events/ea-data-summit-2026.html
+URL:https://mdv.example/events/ea-data-summit-2026.html
+END:VEVENT
+END:VCALENDAR

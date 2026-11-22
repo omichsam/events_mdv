@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url><loc>https://mdv.example/</loc></url>
+<url><loc>https://mdv.example/events.html</loc></url>
+<url><loc>https://mdv.example/about.html</loc></url>
+<url><loc>https://mdv.example/help.html</loc></url>
+<url><loc>https://mdv.example/venues.html</loc></url>
+<url><loc>https://mdv.example/events/nairobi-python-data-night.html</loc></url>
+<url><loc>https://mdv.example/events/kampala-ml-meetup-rainfall.html</loc></url>
+<url><loc>https://mdv.example/events/ea-data-summit-2026.html</loc></url>
+<url><loc>https://mdv.example/events/pipelines-with-python.html</loc></url>
+<url><loc>https://mdv.example/events/dar-open-data-hackathon.html</loc></url>
+<url><loc>https://mdv.example/events/sql-for-analysts-addis.html</loc></url>
+<url><loc>https://mdv.example/events/responsible-ai-policy-forum.html</loc></url>
+<url><loc>https://mdv.example/events/intro-data-visualisation-online.html</loc></url>
+<url><loc>https://mdv.example/venues/bole-data-studio-addis-ababa.html</loc></url>
+<url><loc>https://mdv.example/venues/harbourfront-tech-hub-dar-es-salaam.html</loc></url>
+<url><loc>https://mdv.example/venues/hills-convention-pavilion-kigali.html</loc></url>
+<url><loc>https://mdv.example/venues/kilimani-learning-lab-nairobi.html</loc></url>
+<url><loc>https://mdv.example/venues/lakeview-conference-centre-kampala.html</loc></url>
+<url><loc>https://mdv.example/venues/ngong-road-community-hall-nairobi.html</loc></url>
+<url><loc>https://mdv.example/venues/riverside-innovation-hall-nairobi.html</loc></url>
+</urlset>

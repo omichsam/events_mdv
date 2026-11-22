@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MDV//Events//EN
+BEGIN:VEVENT
+UID:women-in-data-breakfast@mdv.example
+DTSTAMP:20270307T050000Z
+DTSTART:20270307T050000Z
+DTEND:20270307T070000Z
+SUMMARY:Women in Data Breakfast
+LOCATION:Ngong Road\, Nairobi
+DESCRIPTION:Breakfast\, one talk\, tables by topic. https://mdv.example/events/women-in-data-breakfast.html
+URL:https://mdv.example/events/women-in-data-breakfast.html
+END:VEVENT
+END:VCALENDAR

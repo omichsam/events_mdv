@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MDV//Events//EN
+BEGIN:VEVENT
+UID:dar-open-data-hackathon@mdv.example
+DTSTAMP:20270116T060000Z
+DTSTART:20270116T060000Z
+DTEND:20270117T150000Z
+SUMMARY:Dar es Salaam Open Data Hackathon
+LOCATION:Kivukoni\, Dar es Salaam
+DESCRIPTION:30 hours\, mentors\, prizes for three teams. https://mdv.example/events/dar-open-data-hackathon.html
+URL:https://mdv.example/events/dar-open-data-hackathon.html
+END:VEVENT
+END:VCALENDAR

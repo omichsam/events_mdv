@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Venues · MDV</title>
+  <meta name="description" content="Venues that host MDV events, with directions, transport, and accessibility notes.">
+  <meta name="theme-color" content="#16141c">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css?v=30">
+  <link rel="stylesheet" href="css/tickets.css?v=30">
+  <link rel="stylesheet" href="css/front.css?v=34">
+  <style>:root{--accent:#1d5fa8;--copper:#e0782f;--dark:#121923;}</style>
+  
+</head>
+<body data-root="">
+  <a class="skip" href="#content">Skip to content</a>
+  <header class="mast" data-mast>
+  <div class="wrap mast-inner">
+    <a class="logo" href="index.html" aria-label="MDV home">MDV</a>
+    <nav aria-label="Main">
+      <a href="events.html">What’s on</a>
+      <a href="venues.html" aria-current="page">Venues</a>
+      <a href="help.html">Help</a>
+      <a href="about.html">About</a>
+    </nav>
+    <form class="site-search" role="search" action="events.html" method="get" data-site-search-form>
+      <label class="sr-only" for="site-q">Search events</label>
+      <span class="search-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6"/><path d="m20 20-4-4"/></svg><input class="search" id="site-q" name="q" type="search" placeholder="Search events, venues" autocomplete="off"
+        data-site-search role="combobox" aria-autocomplete="list" aria-expanded="false" aria-controls="site-search-list"></span>
+      <ul class="search-suggest" id="site-search-list" role="listbox" aria-label="Suggestions" hidden data-site-results></ul>
+    </form>
+    <button type="button" class="btn quiet search-toggle" data-search-toggle aria-expanded="false" aria-label="Search"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6"/><path d="m20 20-4-4"/></svg></button>
+    <a class="btn signal" href="tickets.html">My tickets</a>
+  </div>
+</header>
+  <p class="site-note wrap" data-site-note hidden></p>
+  <main id="content" class="wrap index venues-index" data-venue-index>
+    <div class="index-head page-head">
+      <div>
+        <h1>Venues</h1>
+        <p class="lede">Where events happen, how to get there, and what access is like.</p>
+      </div>
+    </div>
+    <div class="venue-tools">
+      <label class="search-field"><span>Search</span><span class="search-wrap"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="11" cy="11" r="6"/><path d="m20 20-4-4"/></svg><input class="search" type="search" data-venue-search placeholder="Venue, area, city, or access"></span></label>
+      <label class="field"><span>Sort</span><select class="select" data-venue-sort><option value="upcoming">Most upcoming events</option><option value="name">Name A–Z</option><option value="city">City</option></select></label>
+      <div class="chips" role="group" aria-label="City"><span class="chips-label" aria-hidden="true">City</span><button type="button" class="chip is-active" data-venue-city="All" aria-pressed="true">All <span class="chip-count">7</span></button><button type="button" class="chip" data-venue-city="Nairobi" aria-pressed="false">Nairobi <span class="chip-count">3</span></button><button type="button" class="chip" data-venue-city="Addis Ababa" aria-pressed="false">Addis Ababa <span class="chip-count">1</span></button><button type="button" class="chip" data-venue-city="Dar es Salaam" aria-pressed="false">Dar es Salaam <span class="chip-count">1</span></button><button type="button" class="chip" data-venue-city="Kampala" aria-pressed="false">Kampala <span class="chip-count">1</span></button><button type="button" class="chip" data-venue-city="Kigali" aria-pressed="false">Kigali <span class="chip-count">1</span></button></div>
+      <label class="switch"><input type="checkbox" data-venue-stepfree> Step-free entrance only</label>
+    </div>
+    <p class="meta count-line" data-venue-count aria-live="polite"></p>
+    <div class="venue-list" data-venue-list>
+      <a class="venue-row" href="venues/riverside-innovation-hall-nairobi.html" data-venue data-name="Riverside Innovation Hall" data-city="Nairobi" data-upcoming="1" data-stepfree="1" data-search="riverside innovation hall nairobi kenya riverside drive, westlands, nairobi a conference hall with three breakout rooms in westlands. step-free lift accessible toilet quiet room">
+        <img class="venue-thumb" src="images/opt/ea-data-summit-2026-640.webp" alt="" loading="lazy" width="640" height="427">
+        <span class="venue-info">
+          <strong class="venue-name">Riverside Innovation Hall</strong>
+          <span class="meta">Nairobi, Kenya · Riverside Drive, Westlands, Nairobi</span>
+          <span class="venue-tags"><span class="vtag">Step-free</span><span class="vtag">Lift</span><span class="vtag">Accessible toilet</span></span>
+          <span class="venue-next"><b>1 upcoming</b> · Next: East Africa Data Summit 2026, 8–9 Dec 2026</span>
+        </span>
+      </a>
+<a class="venue-row" href="venues/kilimani-learning-lab-nairobi.html" data-venue data-name="Kilimani Learning Lab" data-city="Nairobi" data-upcoming="1" data-stepfree="1" data-search="kilimani learning lab nairobi kenya kilimani, nairobi a training room with 30 desks, screens, and reliable wi-fi. ramp lift">
+        <img class="venue-thumb" src="images/opt/pipelines-with-python-640.webp" alt="" loading="lazy" width="640" height="427">
+        <span class="venue-info">
+          <strong class="venue-name">Kilimani Learning Lab</strong>
+          <span class="meta">Nairobi, Kenya · Kilimani, Nairobi</span>
+          <span class="venue-tags"><span class="vtag">Ramp</span><span class="vtag">Lift</span></span>
+          <span class="venue-next"><b>1 upcoming</b> · Next: Data Engineering Bootcamp: Pipelines with Python, 12 Dec 2026</span>
+        </span>
+      </a>
+<a class="venue-row" href="venues/ngong-road-community-hall-nairobi.html" data-venue data-name="Ngong Road Community Hall" data-city="Nairobi" data-upcoming="0" data-stepfree="1" data-search="ngong road community hall nairobi kenya ngong road, nairobi a bright community hall used for breakfasts and small talks. step-free accessible toilet">
+        <img class="venue-thumb" src="images/opt/women-in-data-breakfast-640.webp" alt="" loading="lazy" width="640" height="427">
+        <span class="venue-info">
+          <strong class="venue-name">Ngong Road Community Hall</strong>
+          <span class="meta">Nairobi, Kenya · Ngong Road, Nairobi</span>
+          <span class="venue-tags"><span class="vtag">Step-free</span><span class="vtag">Accessible toilet</span></span>
+          <span class="venue-next">No upcoming events</span>
+        </span>
+      </a>
+<a class="venue-row" href="venues/lakeview-conference-centre-kampala.html" data-venue data-name="Lakeview Conference Centre" data-city="Kampala" data-upcoming="1" data-stepfree="1" data-search="lakeview conference centre kampala uganda kololo, kampala a conference centre in kololo with a 150-seat room. step-free accessible toilet">
+        <img class="venue-thumb" src="images/opt/kampala-ml-meetup-rainfall-640.webp" alt="" loading="lazy" width="640" height="427">
+        <span class="venue-info">
+          <strong class="venue-name">Lakeview Conference Centre</strong>
+          <span class="meta">Kampala, Uganda · Kololo, Kampala</span>
+          <span class="venue-tags"><span class="vtag">Step-free</span><span class="vtag">Accessible toilet</span></span>
+          <span class="venue-next"><b>1 upcoming</b> · Next: Kampala Data &amp; ML Meetup: Forecasting rainfall, 3 Dec 2026</span>
+        </span>
+      </a>
+<a class="venue-row" href="venues/harbourfront-tech-hub-dar-es-salaam.html" data-venue data-name="Harbourfront Tech Hub" data-city="Dar es Salaam" data-upcoming="1" data-stepfree="1" data-search="harbourfront tech hub dar es salaam tanzania kivukoni, dar es salaam a tech hub near the harbour with open-plan desks and meeting rooms. step-free accessible toilet">
+        <img class="venue-thumb" src="images/opt/dar-open-data-hackathon-640.webp" alt="" loading="lazy" width="640" height="427">
+        <span class="venue-info">
+          <strong class="venue-name">Harbourfront Tech Hub</strong>
+          <span class="meta">Dar es Salaam, Tanzania · Kivukoni, Dar es Salaam</span>
+          <span class="venue-tags"><span class="vtag">Step-free</span><span class="vtag">Accessible toilet</span></span>
+          <span class="venue-next"><b>1 upcoming</b> · Next: Dar es Salaam Open Data Hackathon, 16–17 Jan 2027</span>
+        </span>
+      </a>
+<a class="venue-row" href="venues/hills-convention-pavilion-kigali.html" data-venue data-name="Hills Convention Pavilion" data-city="Kigali" data-upcoming="1" data-stepfree="1" data-search="hills convention pavilion kigali rwanda kimihurura, kigali a convention pavilion with a plenary hall and two roundtable rooms. step-free lift hearing loop">
+        <img class="venue-thumb" src="images/opt/responsible-ai-policy-forum-640.webp" alt="" loading="lazy" width="640" height="427">
+        <span class="venue-info">
+          <strong class="venue-name">Hills Convention Pavilion</strong>
+          <span class="meta">Kigali, Rwanda · Kimihurura, Kigali</span>
+          <span class="venue-tags"><span class="vtag">Step-free</span><span class="vtag">Lift</span><span class="vtag">Hearing loop</span></span>
+          <span class="venue-next"><b>1 upcoming</b> · Next: Responsible AI Policy Forum, 4 Feb 2027</span>
+        </span>
+      </a>
+<a class="venue-row" href="venues/bole-data-studio-addis-ababa.html" data-venue data-name="Bole Data Studio" data-city="Addis Ababa" data-upcoming="1" data-stepfree="0" data-search="bole data studio addis ababa ethiopia bole, addis ababa a small training studio with 20 seats. lift">
+        <img class="venue-thumb" src="images/opt/sql-for-analysts-addis-640.webp" alt="" loading="lazy" width="640" height="427">
+        <span class="venue-info">
+          <strong class="venue-name">Bole Data Studio</strong>
+          <span class="meta">Addis Ababa, Ethiopia · Bole, Addis Ababa</span>
+          <span class="venue-tags"><span class="vtag">Lift</span></span>
+          <span class="venue-next"><b>1 upcoming</b> · Next: SQL for Analysts, 23 Jan 2027</span>
+        </span>
+      </a>
+    </div>
+    <p class="empty" data-venue-empty hidden>No venues match. <button type="button" class="text-button" data-venue-clear>Clear filters</button></p>
+    <nav class="pager" data-venue-pager aria-label="Pages" hidden></nav>
+  </main>
+  <footer class="site-footer">
+  <div class="wrap footer-grid">
+    <div>
+      <p class="footer-mark">MDV · East Africa</p>
+      <p>MDV lists conferences, workshops, meetups, and hackathons on data, AI, and analytics. Some events sell tickets here; others link to the organizer’s own site.</p>
+      
+    </div>
+    <div>
+      <p class="footer-mark">Help</p>
+      <p><a href="tickets.html">My tickets</a></p>
+      <p><a href="help.html#refunds">Refunds</a> · <a href="help.html#terms">Terms</a> · <a href="help.html#privacy">Privacy</a></p>
+      <p><a href="help.html#organizers">List your event</a></p>
+    </div>
+    <div>
+      <p class="footer-mark">Contact</p>
+      <p><a data-contact href="mailto:hello@mdv.example">hello@mdv.example</a></p>
+      
+      <p><a href="about.html">About MDV</a></p>
+      <p><a href="portal.html">Organizer desk</a></p>
+      <p>Photographs from Unsplash.</p>
+    </div>
+  </div>
+</footer>
+  <dialog class="lightbox" id="lightbox">
+    <form method="dialog"><button class="btn quiet">Close</button></form>
+    <img alt="">
+  </dialog>
+  <script type="application/json" id="site-catalog">[{"listed": true, "currency": "RWF", "format": "In person", "online_url": "", "slug": "kigali-data-science-day-2026", "kind": "Conference", "title": "Kigali Data Science Day 2026", "summary": "A one-day conference on data science in Rwanda, with talks from the health, finance, and transport sectors.", "dates": "12 Jun 2026, 09:00", "place": "Hills Convention Pavilion, Kigali", "invited": "250 invited", "seats": "Sales closed", "state": "Sales closed", "ticket": "", "provider": "", "lifecycle": "archived", "start": "2026-06-12T09:00:00+02:00", "mon": "Jun", "day": "12", "year": "2026", "group": "earlier", "end": "2026-06-12T17:00:00+02:00", "address": "Kimihurura, Kigali", "mode": "closed", "pool": 0, "max": 6, "types": [], "questions": [], "waitlist": false, "invite": ""}, {"listed": true, "currency": "UGX", "format": "In person", "online_url": "", "slug": "kampala-gis-mapping-workshop", "kind": "Workshop", "title": "Kampala GIS & Mapping Workshop", "summary": "A hands-on workshop on mapping with open geospatial data and QGIS.", "dates": "5 Sep 2026, 09:00", "place": "Lakeview Conference Centre, Kampala", "invited": "25 invited", "seats": "Sales closed", "state": "Sales closed", "ticket": "", "provider": "", "lifecycle": "archived", "start": "2026-09-05T09:00:00+03:00", "mon": "Sep", "day": "5", "year": "2026", "group": "earlier", "end": "2026-09-05T16:00:00+03:00", "address": "Kololo, Kampala", "mode": "closed", "pool": 0, "max": 6, "types": [], "questions": [], "waitlist": false, "invite": ""}, {"listed": true, "currency": "KES", "format": "In person", "online_url": "", "slug": "nairobi-python-data-night", "kind": "Meetup", "title": "Nairobi Python & Data Night", "summary": "An evening of lightning talks on Python for data, followed by pizza and conversation.", "dates": "15 Oct 2026, 18:00", "place": "Riverside Innovation Hall, Nairobi", "invited": "90 invited", "seats": "Sales closed", "state": "Sales closed", "ticket": "", "provider": "", "lifecycle": "published", "start": "2026-10-15T18:00:00+03:00", "mon": "Oct", "day": "15", "year": "2026", "group": "earlier", "end": "2026-10-15T21:00:00+03:00", "address": "Riverside Drive, Westlands, Nairobi", "mode": "closed", "pool": 0, "max": 6, "types": [], "questions": [], "waitlist": false, "invite": ""}, {"listed": true, "currency": "UGX", "format": "In person", "online_url": "", "slug": "kampala-ml-meetup-rainfall", "kind": "Meetup", "title": "Kampala Data & ML Meetup: Forecasting rainfall", "summary": "An evening meetup on forecasting rainfall with open weather data, with two short talks, a live notebook, and time to meet Kampala’s data community. Free, but register so the room is set up.", "dates": "3 Dec 2026, 18:00", "place": "Lakeview Conference Centre, Kampala", "invited": "120 invited", "seats": "Free · register", "state": "Registration open", "ticket": "", "provider": "", "lifecycle": "published", "start": "2026-12-03T18:00:00+03:00", "mon": "Dec", "day": "3", "year": "2026", "group": "upcoming", "end": "2026-12-03T20:30:00+03:00", "address": "Kololo, Kampala", "mode": "rsvp", "pool": 0, "max": 6, "types": [], "questions": [], "waitlist": false, "invite": ""}, {"listed": true, "currency": "KES", "format": "In person", "online_url": "", "slug": "ea-data-summit-2026", "kind": "Conference", "title": "East Africa Data Summit 2026", "summary": "Two days in Nairobi for data engineers, analysts, and the people who fund and use their work. Tracks on data engineering, AI in practice, and public data, with time to meet people from across the region.", "dates": "8–9 Dec 2026", "place": "Riverside Innovation Hall, Nairobi", "invited": "600 invited", "seats": "140 seats left", "state": "On sale", "ticket": "https://tickets.example.com/ea-data-summit", "provider": "SummitPass", "lifecycle": "published", "start": "2026-12-08T09:00:00+03:00", "mon": "Dec", "day": "8–9", "year": "2026", "group": "upcoming", "end": "2026-12-09T17:30:00+03:00", "address": "Riverside Drive, Westlands, Nairobi", "mode": "external", "pool": 0, "max": 6, "types": [], "questions": [], "waitlist": false, "invite": ""}, {"listed": true, "currency": "KES", "format": "In person", "online_url": "", "slug": "pipelines-with-python", "kind": "Workshop", "title": "Data Engineering Bootcamp: Pipelines with Python", "summary": "A full-day, hands-on workshop on building reliable data pipelines with Python: ingesting from APIs and spreadsheets, cleaning, testing, and scheduling. You leave with a working pipeline and the code.", "dates": "12 Dec 2026, 09:00", "place": "Kilimani Learning Lab, Nairobi", "invited": "30 invited", "seats": "18 seats left", "state": "Limited", "ticket": "", "provider": "", "lifecycle": "published", "start": "2026-12-12T09:00:00+03:00", "mon": "Dec", "day": "12", "year": "2026", "group": "upcoming", "end": "2026-12-12T16:00:00+03:00", "address": "Kilimani, Nairobi", "mode": "site", "pool": 18, "max": 4, "types": [{"id": "standard", "label": "Standard", "price": 4500, "note": "Workshop, lunch, and certificate", "seat": true}, {"id": "student", "label": "Student", "price": 2000, "note": "With a valid student ID", "seat": true, "limit": 6}, {"id": "laptop-hire", "label": "Laptop hire", "price": 1000, "note": "Add-on. Set up for the day", "seat": false, "limit": 5}], "questions": [{"id": "level", "label": "Your Python level (none, some, comfortable)"}], "waitlist": false, "invite": ""}, {"listed": true, "currency": "TZS", "format": "In person", "online_url": "", "slug": "dar-open-data-hackathon", "kind": "Hackathon", "title": "Dar es Salaam Open Data Hackathon", "summary": "A weekend hackathon on the coast’s open data: fisheries, ferries, and flooding. Teams of three to five build something useful in 30 hours, with mentors on hand and a judging panel on Sunday afternoon.", "dates": "16–17 Jan 2027", "place": "Harbourfront Tech Hub, Dar es Salaam", "invited": "80 invited", "seats": "Free · register", "state": "Registration open", "ticket": "", "provider": "", "lifecycle": "published", "start": "2027-01-16T09:00:00+03:00", "mon": "Jan", "day": "16–17", "year": "2027", "group": "upcoming", "end": "2027-01-17T18:00:00+03:00", "address": "Kivukoni, Dar es Salaam", "mode": "rsvp", "pool": 0, "max": 6, "types": [], "questions": [], "waitlist": false, "invite": ""}, {"listed": true, "currency": "ETB", "format": "In person", "online_url": "", "slug": "sql-for-analysts-addis", "kind": "Workshop", "title": "SQL for Analysts", "summary": "A beginner-friendly day of SQL in Addis Ababa: selecting, filtering, joining, and summarising real sales data. Small group, lots of exercises, and a cheat sheet to take home.", "dates": "23 Jan 2027, 09:30", "place": "Bole Data Studio, Addis Ababa", "invited": "20 invited", "seats": "20 seats left", "state": "On sale", "ticket": "", "provider": "", "lifecycle": "published", "start": "2027-01-23T09:30:00+03:00", "mon": "Jan", "day": "23", "year": "2027", "group": "upcoming", "end": "2027-01-23T15:30:00+03:00", "address": "Bole, Addis Ababa", "mode": "site", "pool": 20, "max": 4, "types": [{"id": "early", "label": "Early bird", "price": 1800, "note": "Ended", "seat": true, "limit": 0}, {"id": "standard", "label": "Standard", "price": 2500, "note": "Workshop and lunch", "seat": true}], "questions": [], "waitlist": false, "invite": ""}, {"listed": true, "currency": "RWF", "format": "In person", "online_url": "", "slug": "responsible-ai-policy-forum", "kind": "Conference", "title": "Responsible AI Policy Forum", "summary": "One day in Kigali on making AI accountable: what regulators across the region are asking for, how teams document models, and how communities are consulted. Morning plenary, afternoon roundtables.", "dates": "4 Feb 2027, 09:00", "place": "Hills Convention Pavilion, Kigali", "invited": "160 invited", "seats": "Sold out", "state": "Sold out", "ticket": "https://tickets.example.com/rai-forum", "provider": "ForumDesk", "lifecycle": "published", "start": "2027-02-04T09:00:00+02:00", "mon": "Feb", "day": "4", "year": "2027", "group": "upcoming", "end": "2027-02-04T16:30:00+02:00", "address": "Kimihurura, Kigali", "mode": "external", "pool": 0, "max": 6, "types": [], "questions": [], "waitlist": true, "invite": ""}, {"listed": true, "currency": "KES", "format": "Online", "online_url": "https://meet.example.com/mdv-dataviz", "slug": "intro-data-visualisation-online", "kind": "Workshop", "title": "Introduction to Data Visualisation", "summary": "Two evening hours online on choosing the right chart, cleaning up defaults, and telling one clear story with data. Works with any tool; examples in a spreadsheet and in Python.", "dates": "18 Feb 2027, 18:00", "place": "Online", "invited": "100 invited", "seats": "100 seats left", "state": "On sale", "ticket": "", "provider": "", "lifecycle": "published", "start": "2027-02-18T18:00:00+03:00", "mon": "Feb", "day": "18", "year": "2027", "group": "upcoming", "end": "2027-02-18T20:00:00+03:00", "address": "Online", "mode": "site", "pool": 100, "max": 2, "types": [{"id": "standard", "label": "Standard", "price": 1500, "note": "Live session and recording", "seat": true}], "questions": [], "waitlist": false, "invite": ""}, {"listed": true, "currency": "KES", "format": "In person", "online_url": "", "slug": "women-in-data-breakfast", "kind": "Meetup", "title": "Women in Data Breakfast", "summary": "A breakfast for women working in data across Nairobi: one short talk, then tables by topic. Places are by invitation from partner organisations.", "dates": "7 Mar 2027, 08:00", "place": "Ngong Road Community Hall, Nairobi", "invited": "60 invited", "seats": "Invite only", "state": "Invite only", "ticket": "", "provider": "", "lifecycle": "pending", "start": "2027-03-07T08:00:00+03:00", "mon": "Mar", "day": "7", "year": "2027", "group": "upcoming", "end": "2027-03-07T10:00:00+03:00", "address": "Ngong Road, Nairobi", "mode": "rsvp", "pool": 0, "max": 6, "types": [], "questions": [], "waitlist": false, "invite": "WID27"}]</script>
+  <script type="application/json" id="site-settings">{"brand": "MDV", "feePercent": 3, "hold": 10, "card": true, "mobile": true, "mobileLabel": "M-Pesa, Airtel Money, MTN MoMo", "promos": {"DATA10": 0.1}, "rates": {"KES": 129.0, "UGX": 3650.0, "TZS": 2500.0, "RWF": 1450.0, "ETB": 150.0, "USD": 1.0}, "currency": "KES", "weekend": [6, 0], "perPage": 6, "waitlist": true}</script>
+  <script src="js/site.js?v=31"></script>
+  <script src="js/tickets.js?v=30"></script>
+</body>
+</html>

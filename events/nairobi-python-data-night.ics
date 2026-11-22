@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MDV//Events//EN
+BEGIN:VEVENT
+UID:nairobi-python-data-night@mdv.example
+DTSTAMP:20261015T150000Z
+DTSTART:20261015T150000Z
+DTEND:20261015T180000Z
+SUMMARY:Nairobi Python & Data Night
+LOCATION:Riverside Drive\, Westlands\, Nairobi
+DESCRIPTION:Six lightning talks\, pizza. https://mdv.example/events/nairobi-python-data-night.html
+URL:https://mdv.example/events/nairobi-python-data-night.html
+END:VEVENT
+END:VCALENDAR

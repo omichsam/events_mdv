@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MDV//Events//EN
+BEGIN:VEVENT
+UID:intro-data-visualisation-online@mdv.example
+DTSTAMP:20270218T150000Z
+DTSTART:20270218T150000Z
+DTEND:20270218T170000Z
+SUMMARY:Introduction to Data Visualisation
+LOCATION:Online
+DESCRIPTION:Online\, two hours\, slides and examples. https://mdv.example/events/intro-data-visualisation-online.html
+URL:https://mdv.example/events/intro-data-visualisation-online.html
+END:VEVENT
+END:VCALENDAR

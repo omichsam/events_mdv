@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MDV//Events//EN
+BEGIN:VEVENT
+UID:kampala-ml-meetup-rainfall@mdv.example
+DTSTAMP:20261203T150000Z
+DTSTART:20261203T150000Z
+DTEND:20261203T173000Z
+SUMMARY:Kampala Data & ML Meetup: Forecasting rainfall
+LOCATION:Kololo\, Kampala
+DESCRIPTION:Two talks\, a live notebook\, networking. https://mdv.example/events/kampala-ml-meetup-rainfall.html
+URL:https://mdv.example/events/kampala-ml-meetup-rainfall.html
+END:VEVENT
+END:VCALENDAR

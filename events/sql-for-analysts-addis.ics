@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MDV//Events//EN
+BEGIN:VEVENT
+UID:sql-for-analysts-addis@mdv.example
+DTSTAMP:20270123T063000Z
+DTSTART:20270123T063000Z
+DTEND:20270123T123000Z
+SUMMARY:SQL for Analysts
+LOCATION:Bole\, Addis Ababa
+DESCRIPTION:One day\, 20 seats\, exercises with real data. https://mdv.example/events/sql-for-analysts-addis.html
+URL:https://mdv.example/events/sql-for-analysts-addis.html
+END:VEVENT
+END:VCALENDAR

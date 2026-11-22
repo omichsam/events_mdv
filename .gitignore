@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+data/backups/
+_t*.html
+.vscode/
+.claude/settings.local.json

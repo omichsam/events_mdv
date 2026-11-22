@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MDV//Events//EN
+BEGIN:VEVENT
+UID:responsible-ai-policy-forum@mdv.example
+DTSTAMP:20270204T070000Z
+DTSTART:20270204T070000Z
+DTEND:20270204T143000Z
+SUMMARY:Responsible AI Policy Forum
+LOCATION:Kimihurura\, Kigali
+DESCRIPTION:Plenary\, two roundtables\, lunch. https://mdv.example/events/responsible-ai-policy-forum.html
+URL:https://mdv.example/events/responsible-ai-policy-forum.html
+END:VEVENT
+END:VCALENDAR

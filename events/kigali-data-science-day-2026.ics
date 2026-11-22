@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//MDV//Events//EN
+BEGIN:VEVENT
+UID:kigali-data-science-day-2026@mdv.example
+DTSTAMP:20260612T070000Z
+DTSTART:20260612T070000Z
+DTEND:20260612T150000Z
+SUMMARY:Kigali Data Science Day 2026
+LOCATION:Kimihurura\, Kigali
+DESCRIPTION:One day\, 12 talks. https://mdv.example/events/kigali-data-science-day-2026.html
+URL:https://mdv.example/events/kigali-data-science-day-2026.html
+END:VEVENT
+END:VCALENDAR
